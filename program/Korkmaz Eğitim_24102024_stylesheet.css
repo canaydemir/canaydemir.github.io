@@ -1,0 +1,802 @@
+﻿@charset "UTF-8";
+
+/* CSS Style sheet of Korkmaz Eğitim_24102024.fet
+   Style sheet generated with FET 6.27.0 on 24.10.2024 11:11 */
+
+/* To do a page-break only after every second timetable, delete "page-break-before: always;" in "table.even_table". */
+/* Delete "page-break-before: always;" in "table.even_table" and in "table.odd_table" to skip page-breaks. */
+/* To hide an element just write the following phrase into the element: "display: none;" (without quotes). */
+
+p.back {
+  margin-top: 4ex;
+  margin-bottom: 5ex;
+}
+
+table {
+  text-align: center;
+  page-break-inside: avoid;
+}
+
+table.odd_table {
+  page-break-before: always;
+}
+
+table.even_table {
+  page-break-before: always;
+}
+
+table.detailed {
+  margin-left: auto; margin-right: auto;
+  text-align: center;
+  border: 0px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+caption {
+
+}
+
+span.institution {
+  font-weight: bold;
+}
+
+span.name {
+padding-left:10px;
+padding-right:10px;
+color:#000000;
+background-color:#FFBDBD;
+}
+
+span.comment {
+  /*font-style: italic;*/
+}
+
+span.legend_title {
+  font-weight: bold;
+}
+
+thead {
+
+}
+
+/* Some programs import "tfoot" incorrectly. So we use "tr.foot" instead of "tfoot". */
+
+tr.foot {
+
+}
+
+tbody {
+
+}
+
+th {
+
+}
+
+td {
+background-color: #D6EEEE;
+border-style: inset;
+}
+
+td.detailed {
+  border: 1px dashed black;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+th.xAxis {
+width: 9em;
+background-color: #FFFFD8;
+}
+
+th.yAxis {
+  height: 9ex;
+  background-color: #FFFFD8;
+}
+
+span.s_1 { /* subject Fen Bilimleri */
+
+}
+
+span.s_2 { /* subject Türkçe */
+
+}
+
+span.s_3 { /* subject Matematik */
+
+}
+
+span.s_4 { /* subject Sosyal Bilgiler */
+
+}
+
+span.s_5 { /* subject İngilizce */
+
+}
+
+span.s_6 { /* subject Fizik */
+
+}
+
+span.s_7 { /* subject Kimya */
+
+}
+
+span.s_8 { /* subject Biyoloji */
+
+}
+
+span.s_9 { /* subject Tarih */
+
+}
+
+span.s_10 { /* subject Coğrafya */
+
+}
+
+span.s_11 { /* subject Geometri */
+
+}
+
+span.s_12 { /* subject Ödev / Soru Çözümü */
+
+}
+
+span.s_13 { /* subject T.C. İnkılap Tarihi ve Atatürkçülük */
+
+}
+
+span.s_14 { /* subject Türk Dili ve Edebiyatı */
+
+}
+
+span.s_15 { /* subject Etüt - 301 Kütüphane */
+
+}
+
+span.s_16 { /* subject İngilizce (İlk) */
+
+}
+
+span.s_17 { /* subject İngilizce (Orta) Hİ */
+
+}
+
+span.s_18 { /* subject İngilizce (Orta) HS */
+
+}
+
+span.s_19 { /* subject İngilizce (Lise) */
+
+}
+
+span.s_20 { /* subject Ödev / Etüt */
+
+}
+
+span.s_21 { /* subject Mezun */
+
+}
+
+span.s_22 { /* subject Rehberlik */
+
+}
+
+span.s_23 { /* subject Deneme Sınavı */
+
+}
+
+span.s_24 { /* subject Sayısal */
+
+}
+
+span.s_25 { /* subject Ödev / Kitap Okuma */
+
+}
+
+span.s_26 { /* subject Etüt */
+
+}
+
+span.s_27 { /* subject Kimya (TYT) */
+
+}
+
+span.ss_2 { /* students set 3A */
+
+}
+
+span.ss_4 { /* students set 4Hİ */
+
+}
+
+span.ss_6 { /* students set 5Hİ */
+
+}
+
+span.ss_8 { /* students set 5HS */
+
+}
+
+span.ss_10 { /* students set 6Hİ */
+
+}
+
+span.ss_12 { /* students set 6HS */
+
+}
+
+span.ss_14 { /* students set 7HS */
+
+}
+
+span.ss_16 { /* students set 8A */
+
+}
+
+span.ss_18 { /* students set 8B */
+
+}
+
+span.ss_20 { /* students set 8C */
+
+}
+
+span.ss_22 { /* students set 9A */
+
+}
+
+span.ss_24 { /* students set 9B */
+
+}
+
+span.ss_26 { /* students set 10A */
+
+}
+
+span.ss_28 { /* students set 11EA */
+
+}
+
+span.ss_30 { /* students set 11Say */
+
+}
+
+span.ss_32 { /* students set YKS EA */
+
+}
+
+span.ss_34 { /* students set YKS Say */
+
+}
+
+span.ss_36 { /* students set İlk Öğretim */
+
+}
+
+span.ss_38 { /* students set Orta Öğretim - A */
+
+}
+
+span.ss_40 { /* students set Lise */
+
+}
+
+span.ss_42 { /* students set Orta Öğretim - B */
+
+}
+
+span.ss_44 { /* students set Orta Öğretim - C */
+
+}
+
+span.ss_46 { /* students set Mezun */
+
+}
+
+span.t_1 { /* teacher Alparslan Alataş */
+
+}
+
+span.t_2 { /* teacher Aslı Çelik */
+
+}
+
+span.t_3 { /* teacher Ayşenur Başkaya Taş */
+
+}
+
+span.t_4 { /* teacher Berfin Medeni */
+
+}
+
+span.t_5 { /* teacher Büşra Nur Çetin */
+
+}
+
+span.t_6 { /* teacher Can Aydemir */
+
+}
+
+span.t_7 { /* teacher Damla Eda Çelikel */
+
+}
+
+span.t_8 { /* teacher Elif Büyükarslan */
+
+}
+
+span.t_9 { /* teacher Emine Zehra Süzen */
+
+}
+
+span.t_10 { /* teacher Fatıma Kübra Karagür */
+
+}
+
+span.t_11 { /* teacher Fulden Sipal */
+
+}
+
+span.t_12 { /* teacher Hasan Koyuncuoğlu */
+
+}
+
+span.t_13 { /* teacher Hüseyin Büyükarslan */
+
+}
+
+span.t_14 { /* teacher Kübra Cücü */
+
+}
+
+span.t_15 { /* teacher Selam Korkmaz */
+
+}
+
+span.t_16 { /* teacher Zeynep Başer */
+
+}
+
+span.t_17 { /* teacher Ziya Balcı */
+
+}
+
+span.r_1 { /* room 101 (Top. Odası) */
+
+}
+
+span.r_2 { /* room 102 (Derslik 1) */
+
+}
+
+span.r_3 { /* room 103 (Derslik 2) */
+
+}
+
+span.r_4 { /* room 104 (Derslik 3) */
+
+}
+
+span.r_5 { /* room 105 (Derslik 4) */
+
+}
+
+span.r_6 { /* room 106 (Derslik 5) */
+
+}
+
+span.r_7 { /* room 201 (Derslik 6) */
+
+}
+
+span.r_8 { /* room 202 (Uygulama) */
+
+}
+
+span.r_9 { /* room 203 (İdari) */
+
+}
+
+span.r_10 { /* room 301 (3. Kat Küt) */
+
+}
+
+span.r_11 { /* room Kütüphane */
+
+}
+
+span.subject {
+
+}
+
+span.activitytag {
+
+}
+
+span.empty {
+  color: gray;
+}
+
+td.empty {
+  border-color: black;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: dashed;
+  border-top-style: dashed;
+  background-color: #FAFAFA;
+}
+
+span.notAvailable {
+  color: gray;
+}
+
+td.notAvailable {
+  border-color: black;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: dotted;
+  border-top-style: dotted;
+}
+
+span.break {
+  color: gray;
+}
+
+td.break {
+  border-color: black;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: dotted;
+  border-top-style: dotted;
+}
+
+tr.studentsset, div.studentsset {
+
+}
+
+tr.teacher, div.teacher {
+display: none;
+}
+
+tr.room, div.room {
+
+}
+
+tr.line0, div.line0 {
+
+}
+
+tr.line1, div.line1 {
+
+}
+
+tr.line2, div.line2 {
+  font-size: small;
+  color: blue;
+}
+
+tr.line3, div.line3 {
+  font-size: small;
+  color: red;
+}
+
+/* Be careful. You might get mutual and ambiguous styles. CSS means that the last definition will be used. */
+
+td.s_1 { /* subject Fen Bilimleri */
+
+}
+
+td.s_2 { /* subject Türkçe */
+
+}
+
+td.s_3 { /* subject Matematik */
+
+}
+
+td.s_4 { /* subject Sosyal Bilgiler */
+
+}
+
+td.s_5 { /* subject İngilizce */
+
+}
+
+td.s_6 { /* subject Fizik */
+
+}
+
+td.s_7 { /* subject Kimya */
+
+}
+
+td.s_8 { /* subject Biyoloji */
+
+}
+
+td.s_9 { /* subject Tarih */
+
+}
+
+td.s_10 { /* subject Coğrafya */
+
+}
+
+td.s_11 { /* subject Geometri */
+
+}
+
+td.s_12 { /* subject Ödev / Soru Çözümü */
+
+}
+
+td.s_13 { /* subject T.C. İnkılap Tarihi ve Atatürkçülük */
+
+}
+
+td.s_14 { /* subject Türk Dili ve Edebiyatı */
+
+}
+
+td.s_15 { /* subject Etüt - 301 Kütüphane */
+
+}
+
+td.s_16 { /* subject İngilizce (İlk) */
+
+}
+
+td.s_17 { /* subject İngilizce (Orta) Hİ */
+
+}
+
+td.s_18 { /* subject İngilizce (Orta) HS */
+
+}
+
+td.s_19 { /* subject İngilizce (Lise) */
+
+}
+
+td.s_20 { /* subject Ödev / Etüt */
+
+}
+
+td.s_21 { /* subject Mezun */
+
+}
+
+td.s_22 { /* subject Rehberlik */
+
+}
+
+td.s_23 { /* subject Deneme Sınavı */
+
+}
+
+td.s_24 { /* subject Sayısal */
+
+}
+
+td.s_25 { /* subject Ödev / Kitap Okuma */
+
+}
+
+td.s_26 { /* subject Etüt */
+
+}
+
+td.s_27 { /* subject Kimya (TYT) */
+
+}
+
+td.ss_2 { /* students set 3A */
+
+}
+
+td.ss_4 { /* students set 4Hİ */
+
+}
+
+td.ss_6 { /* students set 5Hİ */
+
+}
+
+td.ss_8 { /* students set 5HS */
+
+}
+
+td.ss_10 { /* students set 6Hİ */
+
+}
+
+td.ss_12 { /* students set 6HS */
+
+}
+
+td.ss_14 { /* students set 7HS */
+
+}
+
+td.ss_16 { /* students set 8A */
+
+}
+
+td.ss_18 { /* students set 8B */
+
+}
+
+td.ss_20 { /* students set 8C */
+
+}
+
+td.ss_22 { /* students set 9A */
+
+}
+
+td.ss_24 { /* students set 9B */
+
+}
+
+td.ss_26 { /* students set 10A */
+
+}
+
+td.ss_28 { /* students set 11EA */
+
+}
+
+td.ss_30 { /* students set 11Say */
+
+}
+
+td.ss_32 { /* students set YKS EA */
+
+}
+
+td.ss_34 { /* students set YKS Say */
+
+}
+
+td.ss_36 { /* students set İlk Öğretim */
+
+}
+
+td.ss_38 { /* students set Orta Öğretim - A */
+
+}
+
+td.ss_40 { /* students set Lise */
+
+}
+
+td.ss_42 { /* students set Orta Öğretim - B */
+
+}
+
+td.ss_44 { /* students set Orta Öğretim - C */
+
+}
+
+td.ss_46 { /* students set Mezun */
+
+}
+
+td.t_1 { /* teacher Alparslan Alataş */
+
+}
+
+td.t_2 { /* teacher Aslı Çelik */
+
+}
+
+td.t_3 { /* teacher Ayşenur Başkaya Taş */
+
+}
+
+td.t_4 { /* teacher Berfin Medeni */
+
+}
+
+td.t_5 { /* teacher Büşra Nur Çetin */
+
+}
+
+td.t_6 { /* teacher Can Aydemir */
+
+}
+
+td.t_7 { /* teacher Damla Eda Çelikel */
+
+}
+
+td.t_8 { /* teacher Elif Büyükarslan */
+
+}
+
+td.t_9 { /* teacher Emine Zehra Süzen */
+
+}
+
+td.t_10 { /* teacher Fatıma Kübra Karagür */
+
+}
+
+td.t_11 { /* teacher Fulden Sipal */
+
+}
+
+td.t_12 { /* teacher Hasan Koyuncuoğlu */
+
+}
+
+td.t_13 { /* teacher Hüseyin Büyükarslan */
+
+}
+
+td.t_14 { /* teacher Kübra Cücü */
+
+}
+
+td.t_15 { /* teacher Selam Korkmaz */
+
+}
+
+td.t_16 { /* teacher Zeynep Başer */
+
+}
+
+td.t_17 { /* teacher Ziya Balcı */
+
+}
+
+/* Style the teachers' free periods */
+
+div.DESCRIPTION {
+  text-align: left;
+  font-size: smaller;
+}
+
+div.TEACHER_HAS_SINGLE_GAP {
+  color: black;
+}
+
+div.TEACHER_HAS_BORDER_GAP {
+  color: gray;
+}
+
+div.TEACHER_HAS_BIG_GAP {
+  color: red;
+}
+
+div.TEACHER_MUST_COME_EARLIER {
+  color: purple;
+}
+
+div.TEACHER_MUST_COME_MUCH_EARLIER {
+  font-size: smaller;
+  color: fuchsia;
+}
+
+div.TEACHER_MUST_STAY_LONGER {
+  color: teal;
+}
+
+div.TEACHER_MUST_STAY_MUCH_LONGER {
+  font-size: smaller;
+  color: aqua;
+}
+
+div.TEACHER_HAS_A_FREE_DAY {
+  font-size: smaller;
+  color: red;
+}
+
+div.TEACHER_IS_NOT_AVAILABLE {
+  font-size: smaller;
+  color: olive;
+}
+
+/* End of file. */
